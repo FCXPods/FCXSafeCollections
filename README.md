@@ -1,4 +1,4 @@
-# FCXSafeCollections
+# FCXSafeCollections(支持使用pod：（pod 'FCXSafeCollections', '~> 0.2.0'）)
 ##解决NSArray、NSMutableArray、NSDictionary、NSMutableDictionary引起的闪退
 使用了MethodSwizzle解决项目中经常遇到的数组越界、字典键值对为空操作等闪退问题，
 在Debug模式会在控制台输出相应的错误原因，并且不会导致程序闪退
